@@ -1,0 +1,151 @@
+@media (max-width: 1114px) {
+  .header__title {
+    font-size: 38px;
+  }
+  .header__text {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .contact {
+    padding: 13px 43px;
+    font-size: 16px;
+  }
+  .video {
+    font-size: 16px;
+  }
+  .header-content {
+    margin-top: 100px;
+  }
+  .header {
+    height: 700px;
+  }
+  .header-btn__block {
+    margin-top: 24px;
+  }
+  .sales {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sales__desc {
+    justify-items: center;
+  }
+  .info {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+  .project__images {
+    justify-content: center;
+  }
+  .project__images img:nth-child(2) {
+    display: none;
+  }
+  .project__images img:nth-child(3) {
+    display: none;
+  }
+  .serv__block {
+    justify-content: center;
+  }
+  .subs__button {
+    width: 400px;
+  }
+  .footer {
+    height: 850px;
+  }
+  .footer-info {
+    padding-top: 44px;
+  }
+  .sales__list {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    height: 600px;
+  }
+  .header__img {
+    display: none;
+  }
+  .about {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contacts {
+    height: 840px;
+  }
+  .slide {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+}
+@media (max-width: 426px) {
+  .nav__list {
+    display: none;
+  }
+  .mobile-nav-btn {
+    display: block;
+  }
+  .subs {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer {
+    height: fit-content;
+  }
+  .footer-lists {
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  .slider__slide {
+    flex-direction: column;
+  }
+  .slider-2 {
+    width: 95%;
+  }
+  .pagination-1 {
+    position: absolute;
+    text-align: center;
+    transition: 0.3s opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+    bottom: -40px !important;
+    left: unset !important;
+  }
+  .cards__item {
+    width: fit-content;
+    flex-direction: column;
+  }
+  .cards__item:last-child {
+    margin-left: unset;
+  }
+  .contacts {
+    height: fit-content;
+  }
+  .subs__button {
+    width: 100%;
+  }
+  .info__text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .header-btn__block {
+    flex-direction: column;
+  }
+  .header__title {
+    font-size: 30px;
+  }
+  .header__text {
+    font-size: 13px;
+  }
+  .cards__item:first-child {
+    margin: unset;
+  }
+  .title-1 {
+    font-size: 40px;
+  }
+  .subs__button {
+    width: 300px;
+  }
+}
